@@ -1,0 +1,41 @@
+.expense-item {
+    background: #fff;
+    box-shadow: 0px 4px 10px var(--shadow);
+    padding: 15px;
+    margin: 10px 0;
+    border-radius: var(--border-radius);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: var(--transition);
+  }
+
+  .expense-item:hover {
+    transform: translateY(-5px);
+  }
+  
+  .expense-category {
+    font-weight: bold;
+    color: var(--secondary-color);
+  }
+
+  .expense-amount {
+    font-size: 1.2rem;
+    color: var(--primary-color);
+  }
+
+  .btn {
+    padding: 10px 20px;
+    border-radius: var(--border-radius);
+    background: var(--primary-color);
+    color: white;
+    font-size: 1rem;
+    border: none;
+    cursor: pointer;
+    transition: var(--transition);
+  }
+
+  .btn:hover {
+    background: #388E3C;
+    transform: scale(1.05);
+  }
